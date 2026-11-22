@@ -1,16 +1,45 @@
-# React + Vite
+# Frontend Lab — Assignment 1.2
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React 19 frontend application built with Vite and React Router.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Page navigation using React Router
+- Home, Users, User Detail, Login, and Profile pages
+- Light and dark theme using React Context
+- Authentication stub using React Context
+- Protected Profile route
+- Persistent user search using a custom `useLocalStorage` hook
+- Responsive viewport width display with resize event cleanup
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- React Router
+- JavaScript
+- CSS
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Assignment
+
+Unit 1 — Assignment 1.2: React frontend lab.
